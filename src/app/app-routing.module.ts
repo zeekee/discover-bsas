@@ -3,15 +3,20 @@ import { Routes, RouterModule } from '@angular/router';
 //Components
 import { SiteComponent } from './components/site/site.component'
 import { HomeComponent } from './components/home/home.component'
+import { NorthRouteComponent } from './components/north-route/north-route.component'
 
 const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent
+  },
   {
     path: 'site',
     component: SiteComponent
   },
   {
-    path: '',
-    component: HomeComponent
+    path: 'north-route',
+    component: NorthRouteComponent
   }
 ];
 

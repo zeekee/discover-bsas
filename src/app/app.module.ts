@@ -7,6 +7,7 @@ import { SiteComponent } from './components/site/site.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NorthRouteComponent } from './components/north-route/north-route.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
     SiteComponent,
     HomeComponent,
     NavigationComponent,
-    FooterComponent
+    FooterComponent,
+    NorthRouteComponent
   ],
   imports: [
     BrowserModule,
