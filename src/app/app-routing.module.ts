@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SiteComponent } from './components/site/site.component'
 import { HomeComponent } from './components/home/home.component'
 import { NorthRouteComponent } from './components/north-route/north-route.component'
+import { NorthRouteTwoComponent } from './components/north-route-two/north-route-two.component'
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'north-route',
     component: NorthRouteComponent
+  },
+  {
+    path: 'north-route-two',
+    component: NorthRouteTwoComponent
   }
 ];
 

@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NorthRouteComponent } from './components/north-route/north-route.component';
+import { NorthRouteTwoComponent } from './components/north-route-two/north-route-two.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NorthRouteComponent } from './components/north-route/north-route.compon
     HomeComponent,
     NavigationComponent,
     FooterComponent,
-    NorthRouteComponent
+    NorthRouteComponent,
+    NorthRouteTwoComponent
   ],
   imports: [
     BrowserModule,
