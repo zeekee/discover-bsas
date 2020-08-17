@@ -9,6 +9,12 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { FooterComponent } from './components/footer/footer.component';
 import { NorthRouteComponent } from './components/north-route/north-route.component';
 import { NorthRouteTwoComponent } from './components/north-route-two/north-route-two.component';
+import { EastRouteComponent } from './components/east-route/east-route.component';
+import { EastRouteTwoComponent } from './components/east-route-two/east-route-two.component';
+import { WestRouteComponent } from './components/west-route/west-route.component';
+import { WestRouteTwoComponent } from './components/west-route-two/west-route-two.component';
+import { SouthRouteComponent } from './components/south-route/south-route.component';
+import { SouthRouteTwoComponent } from './components/south-route-two/south-route-two.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { NorthRouteTwoComponent } from './components/north-route-two/north-route
     NavigationComponent,
     FooterComponent,
     NorthRouteComponent,
-    NorthRouteTwoComponent
+    NorthRouteTwoComponent,
+    EastRouteComponent,
+    EastRouteTwoComponent,
+    WestRouteComponent,
+    WestRouteTwoComponent,
+    SouthRouteComponent,
+    SouthRouteTwoComponent
   ],
   imports: [
     BrowserModule,
