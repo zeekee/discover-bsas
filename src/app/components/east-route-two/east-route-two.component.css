@@ -6,3 +6,31 @@
    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 90%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media (min-width: 1200px) { 
+    #img-palace {
+        width: 70%;
+        padding-left: 30%;
+    }
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom: 30%;
+        position:relative;
+        height:0;
+    }
+}
